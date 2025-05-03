@@ -1,0 +1,79 @@
+.nav{
+    width: 100vw;
+    height: 70px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #242424;
+}
+
+.nav .logo{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .logo h1{
+    /* color: #646cff; */
+    font-size: 1.5em;
+}
+
+.nav .logo img{
+    width: auto;
+    height: 80%;
+}
+
+.nav .links{
+    display: flex;
+    list-style: none;
+}
+
+.nav .links a{
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+    font-size: 0.9em;
+    margin: 0 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav .links a li{
+    
+    text-decoration: none;
+}
+
+.nav .links a:hover{
+    color: #646cff;
+}
+
+
+.nav .right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .right a{
+    color: rgb(191, 191, 191);
+}
+
+.nav .right .socials{
+    display: flex;
+    gap: 10px;
+}
+
+.nav .right .socials button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    color: rgb(191, 191, 191);
+}
