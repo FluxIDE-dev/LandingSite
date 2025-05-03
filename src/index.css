@@ -32,6 +32,8 @@ body {
   margin: 0;
   background: #000000;
   min-height: 100vh;
+  background: #000 url("header_bg.png");
+  background-size: cover;
 }
 
 h1 {

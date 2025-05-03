@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    padding: 100px;
+}
+
+.header span{
+    color: #646cff;
+    font-size: .9em;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid #646cff;
+}
+
+.header h1{
+    color: #e1e1e1;
+    font-size: 4em;
+    /* margin-bottom: 20px; */
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+}
+
+.header p{
+    color: #bebebe;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 40vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.header .buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.header .buttons button{
+    background: #111;
+    color: #646cff;
+    border: 1px solid #646cff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .buttons button:first-child{
+    background: #646cff;
+    color: #fff;
+    border: 1px solid #646cff;
+}
