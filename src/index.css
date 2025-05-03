@@ -19,6 +19,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 8px;
+  background: #747bff;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 8px;
+  background: #747bff;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -30,10 +42,11 @@ a:hover {
 
 body {
   margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
   background: #000000;
   min-height: 100vh;
   background: #000 url("header_bg.png");
-  background-size: cover;
 }
 
 h1 {

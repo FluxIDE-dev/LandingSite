@@ -2,6 +2,7 @@ import { FaArrowRight, FaLinux } from 'react-icons/fa';
 import Nav from './Components/Nav';
 import styles from './Home.module.css';
 import { BsUbuntu } from 'react-icons/bs';
+import Footer from './Components/Footer';
 
 function Home(){
     return <>
@@ -16,7 +17,14 @@ function Home(){
                 <button><BsUbuntu/> Download for linux</button>
                 <button>Learn More</button>
             </div>
+
+            <div className={styles.video}>
+            <video playsinline="" autoplay="" controlslist="nodownload nofullscreen noremoteplayback" disablepictureinpicture=""><source src="https://pearai.b-cdn.net/pearai-agent-welcome-2.mp4" type="video/mp4"/></video>
+            </div>
         </header>
+
+
+        <Footer />
     </>
 }
 
